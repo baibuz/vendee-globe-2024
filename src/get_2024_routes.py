@@ -1,6 +1,6 @@
 '''
 This script downloads Vendee Globe routes data and saves it to excels 
-by Eka Baibuz
+Author: Eka Baibuz
 '''
 
 from functions.get_data import save_vendee_2024_data

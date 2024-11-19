@@ -31,3 +31,6 @@ python src/get_2024_routes.py --reports [74, 134]
 - The script will most likely stop working once the webpage is updated for the next race.
 
 - If you encounter errors while reading the Excel files with Python, try opening and saving them again using a spreadsheet application like Microsoft Excel or LibreOffice.
+
+### Download Vendee Globe 2020 data
+You can download 2020 data from https://www.bislins.ch/walti/bloge/index.asp?page=Media%3AVendee+Globe+Race+GPS+Data%2Ezip
