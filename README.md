@@ -34,3 +34,24 @@ python src/get_2024_routes.py --reports [74, 134]
 
 ### Download Vendee Globe 2020 data
 You can download 2020 data from https://www.bislins.ch/walti/bloge/index.asp?page=Media%3AVendee+Globe+Race+GPS+Data%2Ezip
+
+## Preparing the Data for Modeling
+To enhance route data with wind data for certain checkpoint times, there are two separate scripts for the 2020 and 2024 data:
+
+### For 2020 Data:
+Run the following script to add the wind information to the 2020 Vendée Globe data:
+```bash
+python src/ranking_history_with_wind_2020.py
+```
+The scripts will add the following columns to the route data:
+
+- **`temp`**: Temperature at the skipper's location.
+- **`windgust`**: Wind gust speed at the skipper's location.
+- **`windspeed`**: Wind speed at the skipper's location.
+- **`winddir`**: Wind direction at the skipper's location.
+
+To enable fetching wind data from the Visual Crossing Weather API:
+
+1. Obtain an API key from [Visual Crossing Weather](https://www.visualcrossing.com/).
+2. Store the API key in a separate file (e.g., `api_key.txt`).
+3. Specify the path to the API key file in the `src/functions/get_data.py` script.
