@@ -1,11 +1,19 @@
-# Vendée Globe 2024
+# Vendée Globe 2024 (WIP)
 A predictive modeling project to analyze and forecast the routes of boats participating in the ongoing Vendée Globe 2024 race.
+
+**Disclaimer**
+This is a work in progress that I am undertaking during my maternity leave to enhance my own enjoyment of following the Vendée Globe 2024 even further. I am making the repository public in case someone else wants to save resources in obtaining the data while the race is ongoing. The fate of this project solely depends on whether I survive the 4-month sleep regression ^_^
 
 ## Overview
 This project collects, processes, and models data from the Vendée Globe 2024 race to gain insights and make route predictions for participating skippers.
 
 ---
+## DATA
+In the `data/` directory, you can find Vendée Globe 2024 and 2020 routes enriched with wind data.  
+Details on how this data was obtained and processed are provided below.
 
+
+---
 ## Fetching Data
 ### Vendee Globe routes 2024
 To fetch the Vendée Globe 2024 routes data from [https://www.vendeeglobe.org/classement](https://www.vendeeglobe.org/classement), run the following command:
@@ -55,3 +63,7 @@ To enable fetching wind data from the Visual Crossing Weather API:
 1. Obtain an API key from [Visual Crossing Weather](https://www.visualcrossing.com/).
 2. Store the API key in a separate file (e.g., `api_key.txt`).
 3. Specify the path to the API key file in the `src/functions/get_data.py` script.
+
+### For 2024 Data:
+Coming soon...
+
