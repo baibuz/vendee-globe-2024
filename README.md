@@ -21,8 +21,11 @@ To make predictions, you will also need wind forecast data for the new position 
 Additionally, you can modify the wind power by specifying a scale. For instance, you can make predictions assuming the wind is 10% higher than the predicted values.
 
 
-![Predicted Routes Screenshot](predicted_route.html)  
+![Predicted Routes Screenshot](docs/predicted_route.png)  
+
 *Example visualization of predicted skipper routes.*
+
+To view the full interactive map, open `docs/predicted_route.html` in your browser.
 
 ---
 ## DATA
