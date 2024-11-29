@@ -21,6 +21,9 @@ To make predictions, you will also need wind forecast data for the new position 
 Additionally, you can modify the wind power by specifying a scale. For instance, you can make predictions assuming the wind is 10% higher than the predicted values.
 
 
+![Predicted Routes Screenshot](path-to-screenshot.png)  
+*Example visualization of predicted skipper routes.*
+
 ---
 ## DATA
 In the `data/` directory, you can find Vendée Globe 2024 and 2020 routes enriched with wind data.  

@@ -1,0 +1,2265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c65895674c89d1bbcb208169733cc5d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c65895674c89d1bbcb208169733cc5d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c65895674c89d1bbcb208169733cc5d = L.map(
+                "map_7c65895674c89d1bbcb208169733cc5d",
+                {
+                    center: [26.671666666666667, -29.335166666666662],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b003696587edecdb5107dee7c70f738 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6b003696587edecdb5107dee7c70f738.addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var marker_a0b0644f1096544b178a1f92b9d9c853 = L.marker(
+                [38.44916666666666, -10.8705],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_ef961869f97d24be0d989de0518739c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f815d2e2f1d4f8d13fb9f687abefcd = $(`<div id="html_20f815d2e2f1d4f8d13fb9f687abefcd" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 02:00:00</div>`)[0];
+                popup_ef961869f97d24be0d989de0518739c5.setContent(html_20f815d2e2f1d4f8d13fb9f687abefcd);
+            
+        
+
+        marker_a0b0644f1096544b178a1f92b9d9c853.bindPopup(popup_ef961869f97d24be0d989de0518739c5)
+        ;
+
+        
+    
+    
+            var marker_d1643aa8f226788cc125c71d142ef209 = L.marker(
+                [32.799, -18.921833333333332],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_f01c681121c5c6dc529f36a753f1bcac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3d06be807148e4501e3af5ca6ff0ba2 = $(`<div id="html_f3d06be807148e4501e3af5ca6ff0ba2" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-14 10:00:00</div>`)[0];
+                popup_f01c681121c5c6dc529f36a753f1bcac.setContent(html_f3d06be807148e4501e3af5ca6ff0ba2);
+            
+        
+
+        marker_d1643aa8f226788cc125c71d142ef209.bindPopup(popup_f01c681121c5c6dc529f36a753f1bcac)
+        ;
+
+        
+    
+    
+            var marker_313e0452b7d7d8de09e54e559ac9c1c2 = L.marker(
+                [28.22833333333333, -25.085833333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_895ce94bea8595924905f22c14774079 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54a7deab9eafb42a267dab24ca393ae0 = $(`<div id="html_54a7deab9eafb42a267dab24ca393ae0" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 18:00:00</div>`)[0];
+                popup_895ce94bea8595924905f22c14774079.setContent(html_54a7deab9eafb42a267dab24ca393ae0);
+            
+        
+
+        marker_313e0452b7d7d8de09e54e559ac9c1c2.bindPopup(popup_895ce94bea8595924905f22c14774079)
+        ;
+
+        
+    
+    
+            var marker_2038bb722764df184ceeaf4cebebe612 = L.marker(
+                [26.951833333333333, -28.5185],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_72aa269986322ef8acd4783807734f80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef9c715cbd410caa319e751d70bbb406 = $(`<div id="html_ef9c715cbd410caa319e751d70bbb406" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-16 14:00:00</div>`)[0];
+                popup_72aa269986322ef8acd4783807734f80.setContent(html_ef9c715cbd410caa319e751d70bbb406);
+            
+        
+
+        marker_2038bb722764df184ceeaf4cebebe612.bindPopup(popup_72aa269986322ef8acd4783807734f80)
+        ;
+
+        
+    
+    
+            var marker_1761a1470aa5ad2d1f80324d09a6e2fc = L.marker(
+                [45.438833333333335, -4.657333333333334],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_060690489cb944c175fdca35fb850ec2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066e86d090246f616ef3055f85cc0a6b = $(`<div id="html_066e86d090246f616ef3055f85cc0a6b" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-11 06:00:00</div>`)[0];
+                popup_060690489cb944c175fdca35fb850ec2.setContent(html_066e86d090246f616ef3055f85cc0a6b);
+            
+        
+
+        marker_1761a1470aa5ad2d1f80324d09a6e2fc.bindPopup(popup_060690489cb944c175fdca35fb850ec2)
+        ;
+
+        
+    
+    
+            var marker_c76e884539e921810993e167e9ce3b7e = L.marker(
+                [36.2185, -12.877],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_af30b7c2af9515c61c4b2a0e4c08e8a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b19074c3ccde8261bb1c3a31c4ef528e = $(`<div id="html_b19074c3ccde8261bb1c3a31c4ef528e" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 14:00:00</div>`)[0];
+                popup_af30b7c2af9515c61c4b2a0e4c08e8a8.setContent(html_b19074c3ccde8261bb1c3a31c4ef528e);
+            
+        
+
+        marker_c76e884539e921810993e167e9ce3b7e.bindPopup(popup_af30b7c2af9515c61c4b2a0e4c08e8a8)
+        ;
+
+        
+    
+    
+            var marker_ab2323c85acb23993c173e75c9cd0d5d = L.marker(
+                [39.29083333333333, -10.757166666666668],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_28e7655493c35cd91bac6d808823b96d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f893a4eb57c2fc4be8e6ab72b94076c9 = $(`<div id="html_f893a4eb57c2fc4be8e6ab72b94076c9" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 22:00:00</div>`)[0];
+                popup_28e7655493c35cd91bac6d808823b96d.setContent(html_f893a4eb57c2fc4be8e6ab72b94076c9);
+            
+        
+
+        marker_ab2323c85acb23993c173e75c9cd0d5d.bindPopup(popup_28e7655493c35cd91bac6d808823b96d)
+        ;
+
+        
+    
+    
+            var marker_558bf931e2ab7b420a8766cf741a3908 = L.marker(
+                [44.8825, -5.278],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_de41a64351491c64d9ffd3cbc99aa3dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c8dbbc1fd474d631a12ed98001b8003 = $(`<div id="html_3c8dbbc1fd474d631a12ed98001b8003" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-11 10:00:00</div>`)[0];
+                popup_de41a64351491c64d9ffd3cbc99aa3dd.setContent(html_3c8dbbc1fd474d631a12ed98001b8003);
+            
+        
+
+        marker_558bf931e2ab7b420a8766cf741a3908.bindPopup(popup_de41a64351491c64d9ffd3cbc99aa3dd)
+        ;
+
+        
+    
+    
+            var marker_6d3d607a117dc3f791c0d013894fa2b5 = L.marker(
+                [27.813333333333333, -25.987833333333334],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_bc364c773c5ad21dc68921fdc4d7af29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3f2ed825e5f3681793306381b5be354 = $(`<div id="html_f3f2ed825e5f3681793306381b5be354" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-16 02:00:00</div>`)[0];
+                popup_bc364c773c5ad21dc68921fdc4d7af29.setContent(html_f3f2ed825e5f3681793306381b5be354);
+            
+        
+
+        marker_6d3d607a117dc3f791c0d013894fa2b5.bindPopup(popup_bc364c773c5ad21dc68921fdc4d7af29)
+        ;
+
+        
+    
+    
+            var marker_2e17cc0af4dc7687964ddd668e797f6e = L.marker(
+                [29.863666666666667, -22.0295],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_ab38bbb88a1695e0744db4d3534eefeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe9728c3989f17e778c1ccc0e8aaa5d5 = $(`<div id="html_fe9728c3989f17e778c1ccc0e8aaa5d5" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 02:00:00</div>`)[0];
+                popup_ab38bbb88a1695e0744db4d3534eefeb.setContent(html_fe9728c3989f17e778c1ccc0e8aaa5d5);
+            
+        
+
+        marker_2e17cc0af4dc7687964ddd668e797f6e.bindPopup(popup_ab38bbb88a1695e0744db4d3534eefeb)
+        ;
+
+        
+    
+    
+            var marker_056dab3f42c7235a9144add5246b93f1 = L.marker(
+                [42.247166666666665, -10.6025],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_f408f8debef61db6cd7921a4f9f5ab44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4686d32758ed24223597cc6389437af5 = $(`<div id="html_4686d32758ed24223597cc6389437af5" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 10:00:00</div>`)[0];
+                popup_f408f8debef61db6cd7921a4f9f5ab44.setContent(html_4686d32758ed24223597cc6389437af5);
+            
+        
+
+        marker_056dab3f42c7235a9144add5246b93f1.bindPopup(popup_f408f8debef61db6cd7921a4f9f5ab44)
+        ;
+
+        
+    
+    
+            var marker_8cbb1b12c40c79dafa5aea53855f66d9 = L.marker(
+                [43.9565, -8.222666666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_84cfa6594e54e2a5c21059959ae38146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7d4765b4f7f9fdb19ec18ffffa0101e = $(`<div id="html_a7d4765b4f7f9fdb19ec18ffffa0101e" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-11 22:00:00</div>`)[0];
+                popup_84cfa6594e54e2a5c21059959ae38146.setContent(html_a7d4765b4f7f9fdb19ec18ffffa0101e);
+            
+        
+
+        marker_8cbb1b12c40c79dafa5aea53855f66d9.bindPopup(popup_84cfa6594e54e2a5c21059959ae38146)
+        ;
+
+        
+    
+    
+            var marker_610dca83d2192114470753a470d9c91f = L.marker(
+                [35.57083333333333, -14.3665],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_00f897e9487270069d45c1691b2212c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac807567543f25b2e4639972a6885b04 = $(`<div id="html_ac807567543f25b2e4639972a6885b04" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 18:00:00</div>`)[0];
+                popup_00f897e9487270069d45c1691b2212c5.setContent(html_ac807567543f25b2e4639972a6885b04);
+            
+        
+
+        marker_610dca83d2192114470753a470d9c91f.bindPopup(popup_00f897e9487270069d45c1691b2212c5)
+        ;
+
+        
+    
+    
+            var marker_2321c574f3ed139eabc6d3c5200e129f = L.marker(
+                [46.442166666666665, -1.8355],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_a326eab91586785183a7375860fede0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cc5755e546ad561f9971ff351501fbd = $(`<div id="html_3cc5755e546ad561f9971ff351501fbd" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-10 13:04:00</div>`)[0];
+                popup_a326eab91586785183a7375860fede0a.setContent(html_3cc5755e546ad561f9971ff351501fbd);
+            
+        
+
+        marker_2321c574f3ed139eabc6d3c5200e129f.bindPopup(popup_a326eab91586785183a7375860fede0a)
+        ;
+
+        
+    
+    
+            var marker_40c876418c43542ecbd08d8269ccf2b9 = L.marker(
+                [42.751666666666665, -9.674833333333334],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_4c8fe0d6cd5dfc36f6b91b5db8fd763f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d60898c50dc05d133d7860f57c9fc95 = $(`<div id="html_8d60898c50dc05d133d7860f57c9fc95" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 06:00:00</div>`)[0];
+                popup_4c8fe0d6cd5dfc36f6b91b5db8fd763f.setContent(html_8d60898c50dc05d133d7860f57c9fc95);
+            
+        
+
+        marker_40c876418c43542ecbd08d8269ccf2b9.bindPopup(popup_4c8fe0d6cd5dfc36f6b91b5db8fd763f)
+        ;
+
+        
+    
+    
+            var marker_3c3791d63a93b199d9e025e3d4747c4f = L.marker(
+                [28.2995, -24.611833333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_2ce054dc4913c8154b54572579c6355f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8132693acce5df60bdf30166a0a0949 = $(`<div id="html_e8132693acce5df60bdf30166a0a0949" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 14:00:00</div>`)[0];
+                popup_2ce054dc4913c8154b54572579c6355f.setContent(html_e8132693acce5df60bdf30166a0a0949);
+            
+        
+
+        marker_3c3791d63a93b199d9e025e3d4747c4f.bindPopup(popup_2ce054dc4913c8154b54572579c6355f)
+        ;
+
+        
+    
+    
+            var marker_7fa09a5568016bb112f1390ab3d5de4d = L.marker(
+                [26.671666666666667, -29.335166666666662],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_45ec509503fdd2f8c31dbccad646d60f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0530cb11915fd7b4c2b53a627d1ffac9 = $(`<div id="html_0530cb11915fd7b4c2b53a627d1ffac9" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-16 18:00:00</div>`)[0];
+                popup_45ec509503fdd2f8c31dbccad646d60f.setContent(html_0530cb11915fd7b4c2b53a627d1ffac9);
+            
+        
+
+        marker_7fa09a5568016bb112f1390ab3d5de4d.bindPopup(popup_45ec509503fdd2f8c31dbccad646d60f)
+        ;
+
+        
+    
+    
+            var marker_23041e7af8c44291946f8ecf79800382 = L.marker(
+                [30.517833333333332, -21.370666666666665],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_b8118b623290eb74ed1f8262e3f422a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e24bd4e7f6631c135f67c9486bd9db8 = $(`<div id="html_0e24bd4e7f6631c135f67c9486bd9db8" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-14 22:00:00</div>`)[0];
+                popup_b8118b623290eb74ed1f8262e3f422a8.setContent(html_0e24bd4e7f6631c135f67c9486bd9db8);
+            
+        
+
+        marker_23041e7af8c44291946f8ecf79800382.bindPopup(popup_b8118b623290eb74ed1f8262e3f422a8)
+        ;
+
+        
+    
+    
+            var marker_956707b44472748f8aeea852fca35e3f = L.marker(
+                [34.887, -15.529666666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_4381281440da23570ffcc4967880bec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_891319fcd33792b1a2125c607ef7f21c = $(`<div id="html_891319fcd33792b1a2125c607ef7f21c" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 22:00:00</div>`)[0];
+                popup_4381281440da23570ffcc4967880bec7.setContent(html_891319fcd33792b1a2125c607ef7f21c);
+            
+        
+
+        marker_956707b44472748f8aeea852fca35e3f.bindPopup(popup_4381281440da23570ffcc4967880bec7)
+        ;
+
+        
+    
+    
+            var marker_699aa1f9f5547877b47d0725be99a752 = L.marker(
+                [29.016666666666666, -22.736],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_673e002cce43ef1878a636500fcb17cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8286e0e1d5f18fe6f2dc9fc30c2f2610 = $(`<div id="html_8286e0e1d5f18fe6f2dc9fc30c2f2610" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 06:00:00</div>`)[0];
+                popup_673e002cce43ef1878a636500fcb17cb.setContent(html_8286e0e1d5f18fe6f2dc9fc30c2f2610);
+            
+        
+
+        marker_699aa1f9f5547877b47d0725be99a752.bindPopup(popup_673e002cce43ef1878a636500fcb17cb)
+        ;
+
+        
+    
+    
+            var marker_ea536236936110c49c2403f7ead532cc = L.marker(
+                [41.24966666666667, -10.802333333333332],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_9ae002c36267f39a5c7f2c04f3394bc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d409724f45175f6c4eb742a2c9e691b = $(`<div id="html_5d409724f45175f6c4eb742a2c9e691b" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 14:00:00</div>`)[0];
+                popup_9ae002c36267f39a5c7f2c04f3394bc7.setContent(html_5d409724f45175f6c4eb742a2c9e691b);
+            
+        
+
+        marker_ea536236936110c49c2403f7ead532cc.bindPopup(popup_9ae002c36267f39a5c7f2c04f3394bc7)
+        ;
+
+        
+    
+    
+            var marker_6cec4239a16d504b10cf12fea9ae4ce5 = L.marker(
+                [44.364, -7.345166666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_8c30064cf171b4cebef076ad5625ee24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c19e34afe575fe90451cdf4b1c00f084 = $(`<div id="html_c19e34afe575fe90451cdf4b1c00f084" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-11 18:00:00</div>`)[0];
+                popup_8c30064cf171b4cebef076ad5625ee24.setContent(html_c19e34afe575fe90451cdf4b1c00f084);
+            
+        
+
+        marker_6cec4239a16d504b10cf12fea9ae4ce5.bindPopup(popup_8c30064cf171b4cebef076ad5625ee24)
+        ;
+
+        
+    
+    
+            var marker_9eaa98055fc3d6d4079940167caa49ef = L.marker(
+                [31.375666666666667, -20.525],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_2e859aacff4800d76e456799b2e88ab0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bd6ebd29499f5c5718d96fef5b06436 = $(`<div id="html_3bd6ebd29499f5c5718d96fef5b06436" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-14 18:00:00</div>`)[0];
+                popup_2e859aacff4800d76e456799b2e88ab0.setContent(html_3bd6ebd29499f5c5718d96fef5b06436);
+            
+        
+
+        marker_9eaa98055fc3d6d4079940167caa49ef.bindPopup(popup_2e859aacff4800d76e456799b2e88ab0)
+        ;
+
+        
+    
+    
+            var marker_43115ba36945a3c9b94f0e28ca058d78 = L.marker(
+                [43.623333333333335, -9.181833333333334],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_83b9c3ec644ee6b2a78be792d46229a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1bc6e7d4fa435e74d78622dcf28f6d0 = $(`<div id="html_c1bc6e7d4fa435e74d78622dcf28f6d0" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 02:00:00</div>`)[0];
+                popup_83b9c3ec644ee6b2a78be792d46229a8.setContent(html_c1bc6e7d4fa435e74d78622dcf28f6d0);
+            
+        
+
+        marker_43115ba36945a3c9b94f0e28ca058d78.bindPopup(popup_83b9c3ec644ee6b2a78be792d46229a8)
+        ;
+
+        
+    
+    
+            var marker_5d1e1b3341b1ae9df2f8098f1cb56f01 = L.marker(
+                [28.482833333333332, -23.724166666666665],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_f20ab34db8fac96a3061081585ef3a52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43f05c821ebd4486acc69c64d87949df = $(`<div id="html_43f05c821ebd4486acc69c64d87949df" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 10:00:00</div>`)[0];
+                popup_f20ab34db8fac96a3061081585ef3a52.setContent(html_43f05c821ebd4486acc69c64d87949df);
+            
+        
+
+        marker_5d1e1b3341b1ae9df2f8098f1cb56f01.bindPopup(popup_f20ab34db8fac96a3061081585ef3a52)
+        ;
+
+        
+    
+    
+            var marker_6c1ef5637b84b3d35ef29b0ed2eae140 = L.marker(
+                [27.4065, -27.365166666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_7627639676aae6052beee242f56a5024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fb812c654dc03d8c0ac9959558122fc = $(`<div id="html_8fb812c654dc03d8c0ac9959558122fc" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-16 10:00:00</div>`)[0];
+                popup_7627639676aae6052beee242f56a5024.setContent(html_8fb812c654dc03d8c0ac9959558122fc);
+            
+        
+
+        marker_6c1ef5637b84b3d35ef29b0ed2eae140.bindPopup(popup_7627639676aae6052beee242f56a5024)
+        ;
+
+        
+    
+    
+            var marker_dfcf4ea92a19cc0ca9ba5795ba9b591a = L.marker(
+                [27.971666666666668, -25.4345],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_bba0204ed619c13fb9bc323224ddce62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_054573fad5d94a7f2f0bed32493f80cb = $(`<div id="html_054573fad5d94a7f2f0bed32493f80cb" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-15 22:00:00</div>`)[0];
+                popup_bba0204ed619c13fb9bc323224ddce62.setContent(html_054573fad5d94a7f2f0bed32493f80cb);
+            
+        
+
+        marker_dfcf4ea92a19cc0ca9ba5795ba9b591a.bindPopup(popup_bba0204ed619c13fb9bc323224ddce62)
+        ;
+
+        
+    
+    
+            var marker_956ce89f1f338dc49cc9804639696ec7 = L.marker(
+                [37.534333333333336, -10.561833333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_e1e61d132221f1f2327906d1861b8212 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b9f879dbe14e8d6b4f89894acd6e4c = $(`<div id="html_75b9f879dbe14e8d6b4f89894acd6e4c" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 06:00:00</div>`)[0];
+                popup_e1e61d132221f1f2327906d1861b8212.setContent(html_75b9f879dbe14e8d6b4f89894acd6e4c);
+            
+        
+
+        marker_956ce89f1f338dc49cc9804639696ec7.bindPopup(popup_e1e61d132221f1f2327906d1861b8212)
+        ;
+
+        
+    
+    
+            var marker_393f5d2146052c1cbc89a568aeac5970 = L.marker(
+                [32.168166666666664, -19.730333333333338],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_6fc381ccc29398a14960cfe8ed93ab64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1154dbb4c055bc16b7472cf474a08ea = $(`<div id="html_e1154dbb4c055bc16b7472cf474a08ea" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-14 14:00:00</div>`)[0];
+                popup_6fc381ccc29398a14960cfe8ed93ab64.setContent(html_e1154dbb4c055bc16b7472cf474a08ea);
+            
+        
+
+        marker_393f5d2146052c1cbc89a568aeac5970.bindPopup(popup_6fc381ccc29398a14960cfe8ed93ab64)
+        ;
+
+        
+    
+    
+            var marker_c34dcaec028711d519d1e4dec6e40a97 = L.marker(
+                [40.512166666666666, -11.229166666666666],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_4ca68ef8a8f71d427d4bb26b0df5345f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95a68e704ea81645b34f5f20b098f5c = $(`<div id="html_d95a68e704ea81645b34f5f20b098f5c" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-12 18:00:00</div>`)[0];
+                popup_4ca68ef8a8f71d427d4bb26b0df5345f.setContent(html_d95a68e704ea81645b34f5f20b098f5c);
+            
+        
+
+        marker_c34dcaec028711d519d1e4dec6e40a97.bindPopup(popup_4ca68ef8a8f71d427d4bb26b0df5345f)
+        ;
+
+        
+    
+    
+            var marker_ca438d5f90a862dadc4b0fd7a7a9e0ca = L.marker(
+                [45.17433333333334, -6.5435],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_a16fde95e31d5855a3a6fd9dc4edf4c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8104db1546775c5e905fefae08ac99fc = $(`<div id="html_8104db1546775c5e905fefae08ac99fc" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-11 14:00:00</div>`)[0];
+                popup_a16fde95e31d5855a3a6fd9dc4edf4c4.setContent(html_8104db1546775c5e905fefae08ac99fc);
+            
+        
+
+        marker_ca438d5f90a862dadc4b0fd7a7a9e0ca.bindPopup(popup_a16fde95e31d5855a3a6fd9dc4edf4c4)
+        ;
+
+        
+    
+    
+            var marker_267ec3911a94d4fd0c7b3ba351ea35af = L.marker(
+                [27.664666666666665, -26.49116666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_17cc6a24c7b13632314801dffb6cfdc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc168374e4a22a0a539b2e203b8c15fa = $(`<div id="html_dc168374e4a22a0a539b2e203b8c15fa" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-16 06:00:00</div>`)[0];
+                popup_17cc6a24c7b13632314801dffb6cfdc8.setContent(html_dc168374e4a22a0a539b2e203b8c15fa);
+            
+        
+
+        marker_267ec3911a94d4fd0c7b3ba351ea35af.bindPopup(popup_17cc6a24c7b13632314801dffb6cfdc8)
+        ;
+
+        
+    
+    
+            var marker_77cb91f2d88d3c5dc820b9d434bb1bf1 = L.marker(
+                [34.15716666666667, -16.6935],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_c0978afddb21b4b4724911c18b998a4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825ce59af30275c5c31c538715054548 = $(`<div id="html_825ce59af30275c5c31c538715054548" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-14 02:00:00</div>`)[0];
+                popup_c0978afddb21b4b4724911c18b998a4b.setContent(html_825ce59af30275c5c31c538715054548);
+            
+        
+
+        marker_77cb91f2d88d3c5dc820b9d434bb1bf1.bindPopup(popup_c0978afddb21b4b4724911c18b998a4b)
+        ;
+
+        
+    
+    
+            var marker_08700a7c14dd6c7adda40d3cb50037fd = L.marker(
+                [36.82533333333333, -11.694],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_850b6b85495ee218ae8cf92419234ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb496d1723117b9f0b2865aacf552fe = $(`<div id="html_dcb496d1723117b9f0b2865aacf552fe" style="width: 100.0%; height: 100.0%;">Pip Hare 2024 (Observed) | Date: 2024-11-13 10:00:00</div>`)[0];
+                popup_850b6b85495ee218ae8cf92419234ee4.setContent(html_dcb496d1723117b9f0b2865aacf552fe);
+            
+        
+
+        marker_08700a7c14dd6c7adda40d3cb50037fd.bindPopup(popup_850b6b85495ee218ae8cf92419234ee4)
+        ;
+
+        
+    
+    
+            var marker_4e834d26404abc6dbab1fd00453ae817 = L.marker(
+                [46.5022222222222, -1.79],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_da24af21ef61dd720908d899f5c56fc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e834d26404abc6dbab1fd00453ae817.setIcon(icon_da24af21ef61dd720908d899f5c56fc4);
+        
+    
+        var popup_9e965a373dc6334d340d542202ff452b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a50cac551d4f7f19d32f224baa94d44b = $(`<div id="html_a50cac551d4f7f19d32f224baa94d44b" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-08 12:02:00</div>`)[0];
+                popup_9e965a373dc6334d340d542202ff452b.setContent(html_a50cac551d4f7f19d32f224baa94d44b);
+            
+        
+
+        marker_4e834d26404abc6dbab1fd00453ae817.bindPopup(popup_9e965a373dc6334d340d542202ff452b)
+        ;
+
+        
+    
+    
+            var marker_46b350080c73806729f6439397a085d9 = L.marker(
+                [46.4202777777778, -1.82277777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_de06dd4a8c14588ef05d716e63731daf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_46b350080c73806729f6439397a085d9.setIcon(icon_de06dd4a8c14588ef05d716e63731daf);
+        
+    
+        var popup_caf4e6207963af17eb710584514fa6f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9b9f12a7d0ecf49a2d80f210f0a2e49 = $(`<div id="html_b9b9f12a7d0ecf49a2d80f210f0a2e49" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-08 14:00:00</div>`)[0];
+                popup_caf4e6207963af17eb710584514fa6f3.setContent(html_b9b9f12a7d0ecf49a2d80f210f0a2e49);
+            
+        
+
+        marker_46b350080c73806729f6439397a085d9.bindPopup(popup_caf4e6207963af17eb710584514fa6f3)
+        ;
+
+        
+    
+    
+            var marker_736d95aa11c1aa28556deb743976c22b = L.marker(
+                [46.3430555555556, -2.29833333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_b6a0227a5236ffc3d2a1ca85b95ebf33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_736d95aa11c1aa28556deb743976c22b.setIcon(icon_b6a0227a5236ffc3d2a1ca85b95ebf33);
+        
+    
+        var popup_6bc0d80ebca7af1e16d7f0c294eb1ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef63dc32be5b1171afdab3758fcc97aa = $(`<div id="html_ef63dc32be5b1171afdab3758fcc97aa" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-08 15:00:00</div>`)[0];
+                popup_6bc0d80ebca7af1e16d7f0c294eb1ec9.setContent(html_ef63dc32be5b1171afdab3758fcc97aa);
+            
+        
+
+        marker_736d95aa11c1aa28556deb743976c22b.bindPopup(popup_6bc0d80ebca7af1e16d7f0c294eb1ec9)
+        ;
+
+        
+    
+    
+            var marker_a8aef7b87c5c5cbb980870d0fb40fdd5 = L.marker(
+                [46.2936111111111, -2.86777777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_1685a61972463c80a12b4aae8c257c00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8aef7b87c5c5cbb980870d0fb40fdd5.setIcon(icon_1685a61972463c80a12b4aae8c257c00);
+        
+    
+        var popup_6a3311ecc87194b0ca91a8bc4a7167bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dfa633cb2ddb61b4ac8a070f8ef07ca = $(`<div id="html_8dfa633cb2ddb61b4ac8a070f8ef07ca" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-08 17:00:00</div>`)[0];
+                popup_6a3311ecc87194b0ca91a8bc4a7167bb.setContent(html_8dfa633cb2ddb61b4ac8a070f8ef07ca);
+            
+        
+
+        marker_a8aef7b87c5c5cbb980870d0fb40fdd5.bindPopup(popup_6a3311ecc87194b0ca91a8bc4a7167bb)
+        ;
+
+        
+    
+    
+            var marker_53faeb24118cbb8ac9063eef5e5d6e06 = L.marker(
+                [46.2955555555556, -4.14],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_2518ed0668961d0c1de4008e712ba2db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53faeb24118cbb8ac9063eef5e5d6e06.setIcon(icon_2518ed0668961d0c1de4008e712ba2db);
+        
+    
+        var popup_820e83abef861494024d6024e1d7abdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e2ac40f2c2981e784b75af2b54ba60e = $(`<div id="html_2e2ac40f2c2981e784b75af2b54ba60e" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-08 21:00:00</div>`)[0];
+                popup_820e83abef861494024d6024e1d7abdd.setContent(html_2e2ac40f2c2981e784b75af2b54ba60e);
+            
+        
+
+        marker_53faeb24118cbb8ac9063eef5e5d6e06.bindPopup(popup_820e83abef861494024d6024e1d7abdd)
+        ;
+
+        
+    
+    
+            var marker_d2cd71447a7bd0622709040fcaadc385 = L.marker(
+                [46.3241666666667, -5.83833333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_46c4c19815d05ac0a2b9eb367019678a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2cd71447a7bd0622709040fcaadc385.setIcon(icon_46c4c19815d05ac0a2b9eb367019678a);
+        
+    
+        var popup_72b677814b9ef2f010941ae812e5ffb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7057816323118f7b98959347aa50550 = $(`<div id="html_b7057816323118f7b98959347aa50550" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 04:00:00</div>`)[0];
+                popup_72b677814b9ef2f010941ae812e5ffb4.setContent(html_b7057816323118f7b98959347aa50550);
+            
+        
+
+        marker_d2cd71447a7bd0622709040fcaadc385.bindPopup(popup_72b677814b9ef2f010941ae812e5ffb4)
+        ;
+
+        
+    
+    
+            var marker_02022055b7aa739d763bc8035a82c85b = L.marker(
+                [46.4941666666667, -6.72361111111111],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_64df0826981ac5bb7e7ce21f1e55f446 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02022055b7aa739d763bc8035a82c85b.setIcon(icon_64df0826981ac5bb7e7ce21f1e55f446);
+        
+    
+        var popup_894d0d9d2489ceefbfa9fd730bad1949 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1906199dad1d1848eda81a20a5d8a42 = $(`<div id="html_e1906199dad1d1848eda81a20a5d8a42" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 08:00:00</div>`)[0];
+                popup_894d0d9d2489ceefbfa9fd730bad1949.setContent(html_e1906199dad1d1848eda81a20a5d8a42);
+            
+        
+
+        marker_02022055b7aa739d763bc8035a82c85b.bindPopup(popup_894d0d9d2489ceefbfa9fd730bad1949)
+        ;
+
+        
+    
+    
+            var marker_e467e61d17de7337ee4bc554d27c4a46 = L.marker(
+                [46.5561111111111, -7.24694444444444],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_8c23467f77ab9c4c18de421b2c27e89f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e467e61d17de7337ee4bc554d27c4a46.setIcon(icon_8c23467f77ab9c4c18de421b2c27e89f);
+        
+    
+        var popup_b0b918e6e791650eeb6cff893346d5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2cff1ce84ee8a68d1d5762aea0827e6 = $(`<div id="html_d2cff1ce84ee8a68d1d5762aea0827e6" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 11:00:00</div>`)[0];
+                popup_b0b918e6e791650eeb6cff893346d5f7.setContent(html_d2cff1ce84ee8a68d1d5762aea0827e6);
+            
+        
+
+        marker_e467e61d17de7337ee4bc554d27c4a46.bindPopup(popup_b0b918e6e791650eeb6cff893346d5f7)
+        ;
+
+        
+    
+    
+            var marker_43dcc7236bc161f5a444d4c013afae63 = L.marker(
+                [46.0830555555556, -7.41777777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_ef043ad602187ff833d76cd67ddae6cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43dcc7236bc161f5a444d4c013afae63.setIcon(icon_ef043ad602187ff833d76cd67ddae6cd);
+        
+    
+        var popup_a2e72f495362eec8cfe92706e342e6b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afb6e6fd3eb10c08c85df88819f2072e = $(`<div id="html_afb6e6fd3eb10c08c85df88819f2072e" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 14:00:00</div>`)[0];
+                popup_a2e72f495362eec8cfe92706e342e6b5.setContent(html_afb6e6fd3eb10c08c85df88819f2072e);
+            
+        
+
+        marker_43dcc7236bc161f5a444d4c013afae63.bindPopup(popup_a2e72f495362eec8cfe92706e342e6b5)
+        ;
+
+        
+    
+    
+            var marker_9c447b586f836f7334da5323037dc03d = L.marker(
+                [45.6261111111111, -7.62527777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_bab27d2577bb94f794b87f2c0a2a181d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c447b586f836f7334da5323037dc03d.setIcon(icon_bab27d2577bb94f794b87f2c0a2a181d);
+        
+    
+        var popup_09ae52b335bf0b11b4e63b643ca01723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc83b3ddd6f8cc4ba690b2911edb4264 = $(`<div id="html_dc83b3ddd6f8cc4ba690b2911edb4264" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 17:00:00</div>`)[0];
+                popup_09ae52b335bf0b11b4e63b643ca01723.setContent(html_dc83b3ddd6f8cc4ba690b2911edb4264);
+            
+        
+
+        marker_9c447b586f836f7334da5323037dc03d.bindPopup(popup_09ae52b335bf0b11b4e63b643ca01723)
+        ;
+
+        
+    
+    
+            var marker_1c7f11d4cd98cf8aff43da3883036955 = L.marker(
+                [45.0430555555556, -8.1975],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f5839306fe9cc815a75b19e124821741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c7f11d4cd98cf8aff43da3883036955.setIcon(icon_f5839306fe9cc815a75b19e124821741);
+        
+    
+        var popup_2cf8df14f014c49b67948f05e0365b54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fdecfd5d545ba30a7fd31e631b560d7 = $(`<div id="html_3fdecfd5d545ba30a7fd31e631b560d7" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-09 21:00:00</div>`)[0];
+                popup_2cf8df14f014c49b67948f05e0365b54.setContent(html_3fdecfd5d545ba30a7fd31e631b560d7);
+            
+        
+
+        marker_1c7f11d4cd98cf8aff43da3883036955.bindPopup(popup_2cf8df14f014c49b67948f05e0365b54)
+        ;
+
+        
+    
+    
+            var marker_fa12b94cc0d01899fb5a7aa82ffaabbd = L.marker(
+                [44.1425, -8.52555555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f79723c928e544866d0b306359abb606 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa12b94cc0d01899fb5a7aa82ffaabbd.setIcon(icon_f79723c928e544866d0b306359abb606);
+        
+    
+        var popup_b2af081c443c21b5fbda58c748ac7640 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e93340b64cde2297206d8190a626f80 = $(`<div id="html_5e93340b64cde2297206d8190a626f80" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 04:00:00</div>`)[0];
+                popup_b2af081c443c21b5fbda58c748ac7640.setContent(html_5e93340b64cde2297206d8190a626f80);
+            
+        
+
+        marker_fa12b94cc0d01899fb5a7aa82ffaabbd.bindPopup(popup_b2af081c443c21b5fbda58c748ac7640)
+        ;
+
+        
+    
+    
+            var marker_de5a11b923fff5f8617716f0d402349c = L.marker(
+                [43.8902777777778, -8.90277777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_55363f4577af206329f03da027f00a87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de5a11b923fff5f8617716f0d402349c.setIcon(icon_55363f4577af206329f03da027f00a87);
+        
+    
+        var popup_66bf9c0e42275396996e8e7b3cad1417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d34ebc9e6a3657a5a679a57c6c16c196 = $(`<div id="html_d34ebc9e6a3657a5a679a57c6c16c196" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 08:00:00</div>`)[0];
+                popup_66bf9c0e42275396996e8e7b3cad1417.setContent(html_d34ebc9e6a3657a5a679a57c6c16c196);
+            
+        
+
+        marker_de5a11b923fff5f8617716f0d402349c.bindPopup(popup_66bf9c0e42275396996e8e7b3cad1417)
+        ;
+
+        
+    
+    
+            var marker_164bece1b2cbf762d06138493189a463 = L.marker(
+                [43.8797222222222, -9.50388888888889],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_2b0b6ecfaf7d9ac8ee52591a2f041d7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_164bece1b2cbf762d06138493189a463.setIcon(icon_2b0b6ecfaf7d9ac8ee52591a2f041d7b);
+        
+    
+        var popup_936e82223f007e8920c171631d737629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b05b45bc6d648688cb7230688a8d0a8 = $(`<div id="html_8b05b45bc6d648688cb7230688a8d0a8" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 11:00:00</div>`)[0];
+                popup_936e82223f007e8920c171631d737629.setContent(html_8b05b45bc6d648688cb7230688a8d0a8);
+            
+        
+
+        marker_164bece1b2cbf762d06138493189a463.bindPopup(popup_936e82223f007e8920c171631d737629)
+        ;
+
+        
+    
+    
+            var marker_ebbf4d42f12667d2a82afa77cac3ba15 = L.marker(
+                [43.9113888888889, -10.2152777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_79886fd6f75391d193bacf17788e9efa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ebbf4d42f12667d2a82afa77cac3ba15.setIcon(icon_79886fd6f75391d193bacf17788e9efa);
+        
+    
+        var popup_92f2d40ef640f19eeac69d733caa79d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cf7a7561552b400c3458f27ec5c22c = $(`<div id="html_44cf7a7561552b400c3458f27ec5c22c" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 14:00:00</div>`)[0];
+                popup_92f2d40ef640f19eeac69d733caa79d5.setContent(html_44cf7a7561552b400c3458f27ec5c22c);
+            
+        
+
+        marker_ebbf4d42f12667d2a82afa77cac3ba15.bindPopup(popup_92f2d40ef640f19eeac69d733caa79d5)
+        ;
+
+        
+    
+    
+            var marker_040bbdfc62ef8986ecab681f40ba38b7 = L.marker(
+                [43.8411111111111, -10.8005555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f65f61cba9bd2113277250ea34f25a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_040bbdfc62ef8986ecab681f40ba38b7.setIcon(icon_f65f61cba9bd2113277250ea34f25a24);
+        
+    
+        var popup_6be5df12bde46ff79cbd107427671f14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2ba31249d9b25f10455c9f0dc5a248b = $(`<div id="html_b2ba31249d9b25f10455c9f0dc5a248b" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 17:00:00</div>`)[0];
+                popup_6be5df12bde46ff79cbd107427671f14.setContent(html_b2ba31249d9b25f10455c9f0dc5a248b);
+            
+        
+
+        marker_040bbdfc62ef8986ecab681f40ba38b7.bindPopup(popup_6be5df12bde46ff79cbd107427671f14)
+        ;
+
+        
+    
+    
+            var marker_ec31c81abbcc8c090c1b88c129e82e3b = L.marker(
+                [43.7844444444444, -11.9791666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_0b42074e0837160da60f5b24c0063d39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec31c81abbcc8c090c1b88c129e82e3b.setIcon(icon_0b42074e0837160da60f5b24c0063d39);
+        
+    
+        var popup_cc26e1f96c05028e62fe72f2534f0ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e20915fe66cff858864feea2f23518d5 = $(`<div id="html_e20915fe66cff858864feea2f23518d5" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-10 21:00:00</div>`)[0];
+                popup_cc26e1f96c05028e62fe72f2534f0ed3.setContent(html_e20915fe66cff858864feea2f23518d5);
+            
+        
+
+        marker_ec31c81abbcc8c090c1b88c129e82e3b.bindPopup(popup_cc26e1f96c05028e62fe72f2534f0ed3)
+        ;
+
+        
+    
+    
+            var marker_9e8f74167e46e3869e7084c6cae964a4 = L.marker(
+                [43.6305555555556, -13.7352777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_98f813db830635dbdc5eccfb1cd892d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e8f74167e46e3869e7084c6cae964a4.setIcon(icon_98f813db830635dbdc5eccfb1cd892d7);
+        
+    
+        var popup_2e4d2c9f30b0bc94a66bb9062aef77d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4b28e2a4ece5b92bb7b24916a5e3232 = $(`<div id="html_b4b28e2a4ece5b92bb7b24916a5e3232" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 04:00:00</div>`)[0];
+                popup_2e4d2c9f30b0bc94a66bb9062aef77d3.setContent(html_b4b28e2a4ece5b92bb7b24916a5e3232);
+            
+        
+
+        marker_9e8f74167e46e3869e7084c6cae964a4.bindPopup(popup_2e4d2c9f30b0bc94a66bb9062aef77d3)
+        ;
+
+        
+    
+    
+            var marker_4bb6e81435e1ccc8cfa5e14aacde12bb = L.marker(
+                [43.5102777777778, -14.6575],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_1a28abfba513c38f1a9c475a592e372b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bb6e81435e1ccc8cfa5e14aacde12bb.setIcon(icon_1a28abfba513c38f1a9c475a592e372b);
+        
+    
+        var popup_072e1e7bc67aac3f79a407c4d67104b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_612429628ca259253d5b7c75b0cfd5ae = $(`<div id="html_612429628ca259253d5b7c75b0cfd5ae" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 08:00:00</div>`)[0];
+                popup_072e1e7bc67aac3f79a407c4d67104b2.setContent(html_612429628ca259253d5b7c75b0cfd5ae);
+            
+        
+
+        marker_4bb6e81435e1ccc8cfa5e14aacde12bb.bindPopup(popup_072e1e7bc67aac3f79a407c4d67104b2)
+        ;
+
+        
+    
+    
+            var marker_8901128c3e364520c32b464d3aebb48e = L.marker(
+                [42.9341666666667, -14.7844444444444],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_38d17aa40b415ee2fe13b492a8e32ddd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8901128c3e364520c32b464d3aebb48e.setIcon(icon_38d17aa40b415ee2fe13b492a8e32ddd);
+        
+    
+        var popup_bbd290d4b536dc60cd80002852dbddf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796b0cde0b190a6fe464b8d150adcbb1 = $(`<div id="html_796b0cde0b190a6fe464b8d150adcbb1" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 11:00:00</div>`)[0];
+                popup_bbd290d4b536dc60cd80002852dbddf6.setContent(html_796b0cde0b190a6fe464b8d150adcbb1);
+            
+        
+
+        marker_8901128c3e364520c32b464d3aebb48e.bindPopup(popup_bbd290d4b536dc60cd80002852dbddf6)
+        ;
+
+        
+    
+    
+            var marker_9b3ce78b42a42a73044e69cab9594a58 = L.marker(
+                [42.3891666666667, -14.9847222222222],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_d2bc6232d66de6ff1a2250a1309f0c24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b3ce78b42a42a73044e69cab9594a58.setIcon(icon_d2bc6232d66de6ff1a2250a1309f0c24);
+        
+    
+        var popup_9a5332e7937a62c745d1155762608286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7cb49193359e13ad4f827a542634b03 = $(`<div id="html_c7cb49193359e13ad4f827a542634b03" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 14:00:00</div>`)[0];
+                popup_9a5332e7937a62c745d1155762608286.setContent(html_c7cb49193359e13ad4f827a542634b03);
+            
+        
+
+        marker_9b3ce78b42a42a73044e69cab9594a58.bindPopup(popup_9a5332e7937a62c745d1155762608286)
+        ;
+
+        
+    
+    
+            var marker_0fb4b87e659bc02e9fec509c072a78ea = L.marker(
+                [41.9244444444444, -15.3683333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_fdfa3eff0e5dda7e0d6934470d9455e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fb4b87e659bc02e9fec509c072a78ea.setIcon(icon_fdfa3eff0e5dda7e0d6934470d9455e7);
+        
+    
+        var popup_f8deeb9bcc8ce8dabcf36ef8fdd0f2ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8a01963c673bd04c78d50f9d094443 = $(`<div id="html_5a8a01963c673bd04c78d50f9d094443" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 17:00:00</div>`)[0];
+                popup_f8deeb9bcc8ce8dabcf36ef8fdd0f2ad.setContent(html_5a8a01963c673bd04c78d50f9d094443);
+            
+        
+
+        marker_0fb4b87e659bc02e9fec509c072a78ea.bindPopup(popup_f8deeb9bcc8ce8dabcf36ef8fdd0f2ad)
+        ;
+
+        
+    
+    
+            var marker_ab77502b9716a5270c1c3dcb6d6b4ff8 = L.marker(
+                [41.6366666666667, -15.9463888888889],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_7277732ce2c10ef74b513a48040477e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab77502b9716a5270c1c3dcb6d6b4ff8.setIcon(icon_7277732ce2c10ef74b513a48040477e4);
+        
+    
+        var popup_e74772cf3101655b026aba9c2f5b09f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba98bd938f3363be7a75bf1837327bd1 = $(`<div id="html_ba98bd938f3363be7a75bf1837327bd1" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-11 21:00:00</div>`)[0];
+                popup_e74772cf3101655b026aba9c2f5b09f5.setContent(html_ba98bd938f3363be7a75bf1837327bd1);
+            
+        
+
+        marker_ab77502b9716a5270c1c3dcb6d6b4ff8.bindPopup(popup_e74772cf3101655b026aba9c2f5b09f5)
+        ;
+
+        
+    
+    
+            var marker_9a3caf25b5998fd48d803b8b4971fa1f = L.marker(
+                [40.8369444444444, -16.7375],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_a1c4456dc26c4c9b75dc090d4881b74e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a3caf25b5998fd48d803b8b4971fa1f.setIcon(icon_a1c4456dc26c4c9b75dc090d4881b74e);
+        
+    
+        var popup_70b98ff3f8ab17f909d9c6337ab0abc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17b630872f1babaf001f17c4afe71dd0 = $(`<div id="html_17b630872f1babaf001f17c4afe71dd0" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 04:00:00</div>`)[0];
+                popup_70b98ff3f8ab17f909d9c6337ab0abc6.setContent(html_17b630872f1babaf001f17c4afe71dd0);
+            
+        
+
+        marker_9a3caf25b5998fd48d803b8b4971fa1f.bindPopup(popup_70b98ff3f8ab17f909d9c6337ab0abc6)
+        ;
+
+        
+    
+    
+            var marker_5e28e5b611ae29b7f55109da5c9b2db1 = L.marker(
+                [40.4541666666667, -17.5608333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_6505a98bc0bc97381e17cbb8866d8e6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e28e5b611ae29b7f55109da5c9b2db1.setIcon(icon_6505a98bc0bc97381e17cbb8866d8e6f);
+        
+    
+        var popup_0387f273490f7ff2a4a77c5b88170c27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3456ae9e44a1dc8a70373a785bb8be24 = $(`<div id="html_3456ae9e44a1dc8a70373a785bb8be24" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 08:00:00</div>`)[0];
+                popup_0387f273490f7ff2a4a77c5b88170c27.setContent(html_3456ae9e44a1dc8a70373a785bb8be24);
+            
+        
+
+        marker_5e28e5b611ae29b7f55109da5c9b2db1.bindPopup(popup_0387f273490f7ff2a4a77c5b88170c27)
+        ;
+
+        
+    
+    
+            var marker_3346ec7ef858f584771fb6d814cbe2cf = L.marker(
+                [40.3255555555556, -18.3105555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_1df892b93a447c7a18d263ecbffb0dde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3346ec7ef858f584771fb6d814cbe2cf.setIcon(icon_1df892b93a447c7a18d263ecbffb0dde);
+        
+    
+        var popup_d9fc642b8ff5dc354a8b2823739897fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35eef71c4b6c8c4a10c0caf7f87b843b = $(`<div id="html_35eef71c4b6c8c4a10c0caf7f87b843b" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 11:00:00</div>`)[0];
+                popup_d9fc642b8ff5dc354a8b2823739897fc.setContent(html_35eef71c4b6c8c4a10c0caf7f87b843b);
+            
+        
+
+        marker_3346ec7ef858f584771fb6d814cbe2cf.bindPopup(popup_d9fc642b8ff5dc354a8b2823739897fc)
+        ;
+
+        
+    
+    
+            var marker_d5a476bfb3fbb5b430441cbab1701e07 = L.marker(
+                [40.1316666666667, -19.0425],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_685bc458fc0228eb9f55d467e844bb12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5a476bfb3fbb5b430441cbab1701e07.setIcon(icon_685bc458fc0228eb9f55d467e844bb12);
+        
+    
+        var popup_400a3ff23512cf0167cfeb6c922e7cd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8e55a4de475951187621f876c1801e4 = $(`<div id="html_f8e55a4de475951187621f876c1801e4" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 14:00:00</div>`)[0];
+                popup_400a3ff23512cf0167cfeb6c922e7cd4.setContent(html_f8e55a4de475951187621f876c1801e4);
+            
+        
+
+        marker_d5a476bfb3fbb5b430441cbab1701e07.bindPopup(popup_400a3ff23512cf0167cfeb6c922e7cd4)
+        ;
+
+        
+    
+    
+            var marker_05bf4fe588a158a030004fb2ad15ded7 = L.marker(
+                [39.8952777777778, -19.5455555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_95559f8643d01cd1fe60a9c84da342fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05bf4fe588a158a030004fb2ad15ded7.setIcon(icon_95559f8643d01cd1fe60a9c84da342fd);
+        
+    
+        var popup_3a2b7257a7f7124b0cb9a3caba8d13c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9086c4804b4eae34ce97cb1ceb1a81eb = $(`<div id="html_9086c4804b4eae34ce97cb1ceb1a81eb" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 17:00:00</div>`)[0];
+                popup_3a2b7257a7f7124b0cb9a3caba8d13c5.setContent(html_9086c4804b4eae34ce97cb1ceb1a81eb);
+            
+        
+
+        marker_05bf4fe588a158a030004fb2ad15ded7.bindPopup(popup_3a2b7257a7f7124b0cb9a3caba8d13c5)
+        ;
+
+        
+    
+    
+            var marker_3d599c64e38a31e3a0b0a6ba5fffb0d7 = L.marker(
+                [39.2394444444444, -20.4422222222222],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_1a9e5b25cd1926eeb50e02190f2d4f37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d599c64e38a31e3a0b0a6ba5fffb0d7.setIcon(icon_1a9e5b25cd1926eeb50e02190f2d4f37);
+        
+    
+        var popup_d0dc9b333c85c2a626ecfd67fe240bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dba1a0158c40215bcfe0f79cbcd2dd6f = $(`<div id="html_dba1a0158c40215bcfe0f79cbcd2dd6f" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-12 21:00:00</div>`)[0];
+                popup_d0dc9b333c85c2a626ecfd67fe240bb3.setContent(html_dba1a0158c40215bcfe0f79cbcd2dd6f);
+            
+        
+
+        marker_3d599c64e38a31e3a0b0a6ba5fffb0d7.bindPopup(popup_d0dc9b333c85c2a626ecfd67fe240bb3)
+        ;
+
+        
+    
+    
+            var marker_a95d50ab4d25742d7616f422d511ac74 = L.marker(
+                [38.4466666666667, -21.5716666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_3a17900f14b82e6e0c3735d81a58922e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a95d50ab4d25742d7616f422d511ac74.setIcon(icon_3a17900f14b82e6e0c3735d81a58922e);
+        
+    
+        var popup_588c6146ee11cde03e6b3c14bf493a76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7945889601fce22f267201c23e06e2ee = $(`<div id="html_7945889601fce22f267201c23e06e2ee" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 04:00:00</div>`)[0];
+                popup_588c6146ee11cde03e6b3c14bf493a76.setContent(html_7945889601fce22f267201c23e06e2ee);
+            
+        
+
+        marker_a95d50ab4d25742d7616f422d511ac74.bindPopup(popup_588c6146ee11cde03e6b3c14bf493a76)
+        ;
+
+        
+    
+    
+            var marker_2edba2bb84bd7bb60a29d8aef029f499 = L.marker(
+                [38.2075, -21.8302777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f95447b16c4fb4964e6f85759f27833a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2edba2bb84bd7bb60a29d8aef029f499.setIcon(icon_f95447b16c4fb4964e6f85759f27833a);
+        
+    
+        var popup_6900fe0e495c338ef02e5bbd5392962f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd464649d208c994f190088ec5866150 = $(`<div id="html_dd464649d208c994f190088ec5866150" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 08:00:00</div>`)[0];
+                popup_6900fe0e495c338ef02e5bbd5392962f.setContent(html_dd464649d208c994f190088ec5866150);
+            
+        
+
+        marker_2edba2bb84bd7bb60a29d8aef029f499.bindPopup(popup_6900fe0e495c338ef02e5bbd5392962f)
+        ;
+
+        
+    
+    
+            var marker_bc3655a1da057f57bbfbf3078fbb9264 = L.marker(
+                [38.0786111111111, -21.9205555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_31a07d7c3d8cce465a4173290f347879 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc3655a1da057f57bbfbf3078fbb9264.setIcon(icon_31a07d7c3d8cce465a4173290f347879);
+        
+    
+        var popup_e92bcf68a1db6880f4b169bfe93262a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87e3d114e1118d4d699c4c280e9a9553 = $(`<div id="html_87e3d114e1118d4d699c4c280e9a9553" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 11:00:00</div>`)[0];
+                popup_e92bcf68a1db6880f4b169bfe93262a0.setContent(html_87e3d114e1118d4d699c4c280e9a9553);
+            
+        
+
+        marker_bc3655a1da057f57bbfbf3078fbb9264.bindPopup(popup_e92bcf68a1db6880f4b169bfe93262a0)
+        ;
+
+        
+    
+    
+            var marker_0528bd692a92908811cea948c1c1fdc7 = L.marker(
+                [37.9161111111111, -22.0122222222222],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_475f16d5f711df9d11a22dd284ba4e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0528bd692a92908811cea948c1c1fdc7.setIcon(icon_475f16d5f711df9d11a22dd284ba4e9b);
+        
+    
+        var popup_a134eda91c342fff3c61b8e0278ed327 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9de593f46bbcdd5e04516b3c2ebe5be9 = $(`<div id="html_9de593f46bbcdd5e04516b3c2ebe5be9" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 14:00:00</div>`)[0];
+                popup_a134eda91c342fff3c61b8e0278ed327.setContent(html_9de593f46bbcdd5e04516b3c2ebe5be9);
+            
+        
+
+        marker_0528bd692a92908811cea948c1c1fdc7.bindPopup(popup_a134eda91c342fff3c61b8e0278ed327)
+        ;
+
+        
+    
+    
+            var marker_ad62b548d5aeea9df9dfcd0f484dd3d3 = L.marker(
+                [37.62, -22.0466666666667],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_48bfd5db721e9d9c5bd7bf04e3cd0624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad62b548d5aeea9df9dfcd0f484dd3d3.setIcon(icon_48bfd5db721e9d9c5bd7bf04e3cd0624);
+        
+    
+        var popup_8268406cc24bd560c65207a436704346 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_744097e442adaedc09acf9b41453b8ac = $(`<div id="html_744097e442adaedc09acf9b41453b8ac" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 17:00:00</div>`)[0];
+                popup_8268406cc24bd560c65207a436704346.setContent(html_744097e442adaedc09acf9b41453b8ac);
+            
+        
+
+        marker_ad62b548d5aeea9df9dfcd0f484dd3d3.bindPopup(popup_8268406cc24bd560c65207a436704346)
+        ;
+
+        
+    
+    
+            var marker_185528a959617f597039ca905fee5252 = L.marker(
+                [36.9638888888889, -22.1733333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f3542a522bd43e511c66c225f44c46d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_185528a959617f597039ca905fee5252.setIcon(icon_f3542a522bd43e511c66c225f44c46d0);
+        
+    
+        var popup_d34b06e0017d64510177c0089079990b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e9f7d5511b464720d2f56237bc8bb2 = $(`<div id="html_c6e9f7d5511b464720d2f56237bc8bb2" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-13 21:00:00</div>`)[0];
+                popup_d34b06e0017d64510177c0089079990b.setContent(html_c6e9f7d5511b464720d2f56237bc8bb2);
+            
+        
+
+        marker_185528a959617f597039ca905fee5252.bindPopup(popup_d34b06e0017d64510177c0089079990b)
+        ;
+
+        
+    
+    
+            var marker_49425d7934967be3e12c48def523d230 = L.marker(
+                [35.6336111111111, -22.1908333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_1f659f7423e72ec39fb658df64c141de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49425d7934967be3e12c48def523d230.setIcon(icon_1f659f7423e72ec39fb658df64c141de);
+        
+    
+        var popup_ac271a17a70992dd52bd5572179de227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d21ceb7cc560d87126310cac122c9e33 = $(`<div id="html_d21ceb7cc560d87126310cac122c9e33" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 04:00:00</div>`)[0];
+                popup_ac271a17a70992dd52bd5572179de227.setContent(html_d21ceb7cc560d87126310cac122c9e33);
+            
+        
+
+        marker_49425d7934967be3e12c48def523d230.bindPopup(popup_ac271a17a70992dd52bd5572179de227)
+        ;
+
+        
+    
+    
+            var marker_f793f60bb8dad3cfe2d2b5efb9613bd3 = L.marker(
+                [34.8508333333333, -22.1397222222222],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_23171e9cf69e4917778926b9030c206f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f793f60bb8dad3cfe2d2b5efb9613bd3.setIcon(icon_23171e9cf69e4917778926b9030c206f);
+        
+    
+        var popup_63538849ca9bd296b91201668d14c621 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc99e4ef8bd258873627c5e5ac4f0368 = $(`<div id="html_cc99e4ef8bd258873627c5e5ac4f0368" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 08:00:00</div>`)[0];
+                popup_63538849ca9bd296b91201668d14c621.setContent(html_cc99e4ef8bd258873627c5e5ac4f0368);
+            
+        
+
+        marker_f793f60bb8dad3cfe2d2b5efb9613bd3.bindPopup(popup_63538849ca9bd296b91201668d14c621)
+        ;
+
+        
+    
+    
+            var marker_05fdfa45f006ca437c85088511550326 = L.marker(
+                [34.2144444444444, -22.0538888888889],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_3dd67bee7cb6e0f9dbd13b195a6dc702 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05fdfa45f006ca437c85088511550326.setIcon(icon_3dd67bee7cb6e0f9dbd13b195a6dc702);
+        
+    
+        var popup_64847229e949aec226bb19c91fca61f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f52d9ceab68fd1794cea98385bb6213 = $(`<div id="html_0f52d9ceab68fd1794cea98385bb6213" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 11:00:00</div>`)[0];
+                popup_64847229e949aec226bb19c91fca61f9.setContent(html_0f52d9ceab68fd1794cea98385bb6213);
+            
+        
+
+        marker_05fdfa45f006ca437c85088511550326.bindPopup(popup_64847229e949aec226bb19c91fca61f9)
+        ;
+
+        
+    
+    
+            var marker_3f48dc8859caa69d32d5bbf88ea33117 = L.marker(
+                [33.5191666666667, -21.885],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_9648b4ed0e84ea5d28b0a7598ca14289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f48dc8859caa69d32d5bbf88ea33117.setIcon(icon_9648b4ed0e84ea5d28b0a7598ca14289);
+        
+    
+        var popup_809ae236fcff9afb0294c1b4855490c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf86275ab377d1da6705d591bc90add = $(`<div id="html_dcf86275ab377d1da6705d591bc90add" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 14:00:00</div>`)[0];
+                popup_809ae236fcff9afb0294c1b4855490c1.setContent(html_dcf86275ab377d1da6705d591bc90add);
+            
+        
+
+        marker_3f48dc8859caa69d32d5bbf88ea33117.bindPopup(popup_809ae236fcff9afb0294c1b4855490c1)
+        ;
+
+        
+    
+    
+            var marker_82f0ceaebc8b76c63c371011b8c9db67 = L.marker(
+                [32.8583333333333, -22.2738888888889],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_48abcb793d1828a509ee361ae352d5c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82f0ceaebc8b76c63c371011b8c9db67.setIcon(icon_48abcb793d1828a509ee361ae352d5c2);
+        
+    
+        var popup_88d8701d805fb432989b3c788256e20c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f0099cbe629ec13a8ad6650cc10285d = $(`<div id="html_8f0099cbe629ec13a8ad6650cc10285d" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 17:00:00</div>`)[0];
+                popup_88d8701d805fb432989b3c788256e20c.setContent(html_8f0099cbe629ec13a8ad6650cc10285d);
+            
+        
+
+        marker_82f0ceaebc8b76c63c371011b8c9db67.bindPopup(popup_88d8701d805fb432989b3c788256e20c)
+        ;
+
+        
+    
+    
+            var marker_df207f63d452585d7349f4167be370db = L.marker(
+                [31.8705555555556, -22.7080555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_d324c03f4baf55b88b54de83b59ca944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df207f63d452585d7349f4167be370db.setIcon(icon_d324c03f4baf55b88b54de83b59ca944);
+        
+    
+        var popup_5986a09b8080e88034c40ea7134c9fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf31b77d56c29e669a23b1bb8768a47e = $(`<div id="html_bf31b77d56c29e669a23b1bb8768a47e" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-14 21:00:00</div>`)[0];
+                popup_5986a09b8080e88034c40ea7134c9fe4.setContent(html_bf31b77d56c29e669a23b1bb8768a47e);
+            
+        
+
+        marker_df207f63d452585d7349f4167be370db.bindPopup(popup_5986a09b8080e88034c40ea7134c9fe4)
+        ;
+
+        
+    
+    
+            var marker_ecfd1de90f673765ecb16531901c23e1 = L.marker(
+                [30.1941666666667, -23.0094444444444],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_4ebce8d68a71bea57ea312fb8a7903ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ecfd1de90f673765ecb16531901c23e1.setIcon(icon_4ebce8d68a71bea57ea312fb8a7903ea);
+        
+    
+        var popup_4e989d987f72f4709e22578661d38f30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e41a1b1b0e8585276c16fad237169118 = $(`<div id="html_e41a1b1b0e8585276c16fad237169118" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 04:00:00</div>`)[0];
+                popup_4e989d987f72f4709e22578661d38f30.setContent(html_e41a1b1b0e8585276c16fad237169118);
+            
+        
+
+        marker_ecfd1de90f673765ecb16531901c23e1.bindPopup(popup_4e989d987f72f4709e22578661d38f30)
+        ;
+
+        
+    
+    
+            var marker_0da71e8b765c094adad8b9200719e41b = L.marker(
+                [29.4711111111111, -23.2252777777778],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_63188ee417a3eb50297f959d5a7e4d3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0da71e8b765c094adad8b9200719e41b.setIcon(icon_63188ee417a3eb50297f959d5a7e4d3c);
+        
+    
+        var popup_b2d388588ff15d800e3af0b5566dbdd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_719e90047bc4f9cd72b361a526e32907 = $(`<div id="html_719e90047bc4f9cd72b361a526e32907" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 08:00:00</div>`)[0];
+                popup_b2d388588ff15d800e3af0b5566dbdd7.setContent(html_719e90047bc4f9cd72b361a526e32907);
+            
+        
+
+        marker_0da71e8b765c094adad8b9200719e41b.bindPopup(popup_b2d388588ff15d800e3af0b5566dbdd7)
+        ;
+
+        
+    
+    
+            var marker_78e22761e21cdf41dc70889588dc4f13 = L.marker(
+                [29.0419444444444, -23.33],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_3acf34ad90c5eedfa4eb84038812d7a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78e22761e21cdf41dc70889588dc4f13.setIcon(icon_3acf34ad90c5eedfa4eb84038812d7a6);
+        
+    
+        var popup_4ee825f43bdb183f8993f3a03c9631d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4876a01df2b4e04e5736e5eb335ce94 = $(`<div id="html_b4876a01df2b4e04e5736e5eb335ce94" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 11:00:00</div>`)[0];
+                popup_4ee825f43bdb183f8993f3a03c9631d6.setContent(html_b4876a01df2b4e04e5736e5eb335ce94);
+            
+        
+
+        marker_78e22761e21cdf41dc70889588dc4f13.bindPopup(popup_4ee825f43bdb183f8993f3a03c9631d6)
+        ;
+
+        
+    
+    
+            var marker_d6ad7ce4bbbeb33870bfcfff296181bc = L.marker(
+                [28.6108333333333, -23.4783333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_fb5ac2dce1a625d4b3d6ada6e025ec6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6ad7ce4bbbeb33870bfcfff296181bc.setIcon(icon_fb5ac2dce1a625d4b3d6ada6e025ec6b);
+        
+    
+        var popup_7b1a7d5f2c0c10a1754affc92a243a85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a693d3eff5e5e1dabb83a849c68e6cce = $(`<div id="html_a693d3eff5e5e1dabb83a849c68e6cce" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 14:00:00</div>`)[0];
+                popup_7b1a7d5f2c0c10a1754affc92a243a85.setContent(html_a693d3eff5e5e1dabb83a849c68e6cce);
+            
+        
+
+        marker_d6ad7ce4bbbeb33870bfcfff296181bc.bindPopup(popup_7b1a7d5f2c0c10a1754affc92a243a85)
+        ;
+
+        
+    
+    
+            var marker_40c4c3fc65a920457b93428a1c02c895 = L.marker(
+                [28.2641666666667, -23.4036111111111],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_74681a49f13f736d09bd77f7aed01d5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40c4c3fc65a920457b93428a1c02c895.setIcon(icon_74681a49f13f736d09bd77f7aed01d5f);
+        
+    
+        var popup_83897bb8128a92e33c245d4e54970605 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c275432dc2948e4b47544b5f67cf0c61 = $(`<div id="html_c275432dc2948e4b47544b5f67cf0c61" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 17:00:00</div>`)[0];
+                popup_83897bb8128a92e33c245d4e54970605.setContent(html_c275432dc2948e4b47544b5f67cf0c61);
+            
+        
+
+        marker_40c4c3fc65a920457b93428a1c02c895.bindPopup(popup_83897bb8128a92e33c245d4e54970605)
+        ;
+
+        
+    
+    
+            var marker_517d9348c6b126a1c3c143a22d22d3f3 = L.marker(
+                [27.6644444444444, -23.2486111111111],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_0bdcbdaabdc390ab70dd31c26e2b6ba7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_517d9348c6b126a1c3c143a22d22d3f3.setIcon(icon_0bdcbdaabdc390ab70dd31c26e2b6ba7);
+        
+    
+        var popup_54042f959074d276cc11710226ab7224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1193c233a19eb676f92e690fb45e75 = $(`<div id="html_bc1193c233a19eb676f92e690fb45e75" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-15 21:00:00</div>`)[0];
+                popup_54042f959074d276cc11710226ab7224.setContent(html_bc1193c233a19eb676f92e690fb45e75);
+            
+        
+
+        marker_517d9348c6b126a1c3c143a22d22d3f3.bindPopup(popup_54042f959074d276cc11710226ab7224)
+        ;
+
+        
+    
+    
+            var marker_243133d2b8784fa1a8b0f58b7451d66e = L.marker(
+                [27.1772222222222, -23.4430555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_4113874aa87ce5fd57ae2d7b142a0148 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_243133d2b8784fa1a8b0f58b7451d66e.setIcon(icon_4113874aa87ce5fd57ae2d7b142a0148);
+        
+    
+        var popup_f7c55e0ba91a5fd0c7477f947483a81a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa85d7d5dde97429e1c25fc9525b5093 = $(`<div id="html_fa85d7d5dde97429e1c25fc9525b5093" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 04:00:00</div>`)[0];
+                popup_f7c55e0ba91a5fd0c7477f947483a81a.setContent(html_fa85d7d5dde97429e1c25fc9525b5093);
+            
+        
+
+        marker_243133d2b8784fa1a8b0f58b7451d66e.bindPopup(popup_f7c55e0ba91a5fd0c7477f947483a81a)
+        ;
+
+        
+    
+    
+            var marker_9fecf2e8c32fd8c06773030b2f75dab3 = L.marker(
+                [27.0455555555556, -23.5230555555556],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_036635011aacbd072aaad2b6ec46d1a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9fecf2e8c32fd8c06773030b2f75dab3.setIcon(icon_036635011aacbd072aaad2b6ec46d1a7);
+        
+    
+        var popup_f1805f5ad05aee5b7aa73a5f0c397610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ec5e73d355d73dc878803a292fa7ef1 = $(`<div id="html_3ec5e73d355d73dc878803a292fa7ef1" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 08:00:00</div>`)[0];
+                popup_f1805f5ad05aee5b7aa73a5f0c397610.setContent(html_3ec5e73d355d73dc878803a292fa7ef1);
+            
+        
+
+        marker_9fecf2e8c32fd8c06773030b2f75dab3.bindPopup(popup_f1805f5ad05aee5b7aa73a5f0c397610)
+        ;
+
+        
+    
+    
+            var marker_5f992b3a64d079f5992b813d434bf645 = L.marker(
+                [26.9280555555556, -23.5897222222222],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_e65d849aeba035fc434457fb27a04daf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5f992b3a64d079f5992b813d434bf645.setIcon(icon_e65d849aeba035fc434457fb27a04daf);
+        
+    
+        var popup_d9464a46fa06ad8941877490b4611754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b80c33b691f83e0778131ec69849409 = $(`<div id="html_0b80c33b691f83e0778131ec69849409" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 11:00:00</div>`)[0];
+                popup_d9464a46fa06ad8941877490b4611754.setContent(html_0b80c33b691f83e0778131ec69849409);
+            
+        
+
+        marker_5f992b3a64d079f5992b813d434bf645.bindPopup(popup_d9464a46fa06ad8941877490b4611754)
+        ;
+
+        
+    
+    
+            var marker_d1c8a4939e2d2354d6bbbae26884d4a2 = L.marker(
+                [26.7658333333333, -23.7208333333333],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_b03ca5174c48b46b2604b436f2f531f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1c8a4939e2d2354d6bbbae26884d4a2.setIcon(icon_b03ca5174c48b46b2604b436f2f531f4);
+        
+    
+        var popup_c6ace4fc5069bc6a2414bbddb68c2d0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d581495cf5db2c076965f715010b4bd9 = $(`<div id="html_d581495cf5db2c076965f715010b4bd9" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 14:00:00</div>`)[0];
+                popup_c6ace4fc5069bc6a2414bbddb68c2d0a.setContent(html_d581495cf5db2c076965f715010b4bd9);
+            
+        
+
+        marker_d1c8a4939e2d2354d6bbbae26884d4a2.bindPopup(popup_c6ace4fc5069bc6a2414bbddb68c2d0a)
+        ;
+
+        
+    
+    
+            var marker_195d4af6be0e62df7c80c66b37921027 = L.marker(
+                [26.5705555555556, -23.8188888888889],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_f57a6568c8d75f657a16225a04cd899c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_195d4af6be0e62df7c80c66b37921027.setIcon(icon_f57a6568c8d75f657a16225a04cd899c);
+        
+    
+        var popup_d739c10551dea98dc98816ce4f1e2ece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79c07d306a394f9a338b26c0bec32ea1 = $(`<div id="html_79c07d306a394f9a338b26c0bec32ea1" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 17:00:00</div>`)[0];
+                popup_d739c10551dea98dc98816ce4f1e2ece.setContent(html_79c07d306a394f9a338b26c0bec32ea1);
+            
+        
+
+        marker_195d4af6be0e62df7c80c66b37921027.bindPopup(popup_d739c10551dea98dc98816ce4f1e2ece)
+        ;
+
+        
+    
+    
+            var marker_361b55165ac490f15861863c4762a813 = L.marker(
+                [26.1477777777778, -24.1636111111111],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_4f6e66f25e543720d2ebca2f1185ac29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_361b55165ac490f15861863c4762a813.setIcon(icon_4f6e66f25e543720d2ebca2f1185ac29);
+        
+    
+        var popup_a3c5961ce1206d5a1ac52011d769a0c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2036e1e853e723f7f65ab4e850dbea1e = $(`<div id="html_2036e1e853e723f7f65ab4e850dbea1e" style="width: 100.0%; height: 100.0%;">Pip Hare 2020 | Date: 2020-11-16 21:00:00</div>`)[0];
+                popup_a3c5961ce1206d5a1ac52011d769a0c1.setContent(html_2036e1e853e723f7f65ab4e850dbea1e);
+            
+        
+
+        marker_361b55165ac490f15861863c4762a813.bindPopup(popup_a3c5961ce1206d5a1ac52011d769a0c1)
+        ;
+
+        
+    
+    
+            var marker_9a27742a3cb4805855b63bddc37f6516 = L.marker(
+                [26.671666666666667, -29.335166666666662],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+        var popup_47388febb6472a918901772d9b09e549 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22414e1dc5e4a749aa6051d428c01635 = $(`<div id="html_22414e1dc5e4a749aa6051d428c01635" style="width: 100.0%; height: 100.0%;">Current Position</div>`)[0];
+                popup_47388febb6472a918901772d9b09e549.setContent(html_22414e1dc5e4a749aa6051d428c01635);
+            
+        
+
+        marker_9a27742a3cb4805855b63bddc37f6516.bindPopup(popup_47388febb6472a918901772d9b09e549)
+        ;
+
+        
+    
+    
+            var marker_cfc9dc59762055cfff1e797aee286983 = L.marker(
+                [26.361644444444426, -30.21792777777777],
+                {}
+            ).addTo(map_7c65895674c89d1bbcb208169733cc5d);
+        
+    
+            var icon_2560db6e07d5c5e37446972fcbc8e7a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cfc9dc59762055cfff1e797aee286983.setIcon(icon_2560db6e07d5c5e37446972fcbc8e7a0);
+        
+    
+        var popup_689dff499d137c8dad23d7fa6608a983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c02c55535007bf6ae5eb0a7bd975c6d = $(`<div id="html_0c02c55535007bf6ae5eb0a7bd975c6d" style="width: 100.0%; height: 100.0%;">Day 1 Prediction</div>`)[0];
+                popup_689dff499d137c8dad23d7fa6608a983.setContent(html_0c02c55535007bf6ae5eb0a7bd975c6d);
+            
+        
+
+        marker_cfc9dc59762055cfff1e797aee286983.bindPopup(popup_689dff499d137c8dad23d7fa6608a983)
+        ;
+
+        
+    
+</script>
+</html>
