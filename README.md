@@ -7,6 +7,20 @@ This is a work in progress that I am undertaking during my maternity leave to en
 ## Overview
 This project collects, processes, and models data from the Vendée Globe 2024 race to gain insights and make route predictions for participating skippers.
 
+2020 Vendee globe routes enhanced with wind and temperature data are used to train a simple ML model that predicts how far the skipper will make it the next day. 
+### Project Plan
+The project uses 2020 Vendée Globe routes, enhanced with wind and temperature data, to train a simple machine learning (ML) model that predicts the routes of skippers participating in the ongoing Vendée Globe 2024.
+
+You can:
+1. Download the latest 2024 Vendée Globe data (see the instructions below).
+2. Enrich the 2024 data with wind information (see the instructions below).
+3. Use the 2020 routes data with wind (available in `data/2020`) to train the ML model and predict the next few days of routes for the 2024 skippers of your choice.
+
+To make predictions, you will also need wind forecast data for the new position of the selected skippers. 
+
+Additionally, you can modify the wind power by specifying a scale. For instance, you can make predictions assuming the wind is 10% higher than the predicted values.
+
+
 ---
 ## DATA
 In the `data/` directory, you can find Vendée Globe 2024 and 2020 routes enriched with wind data.  
