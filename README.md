@@ -1,5 +1,8 @@
 # Vendée Globe 2024 (WIP)
 A predictive modeling project to analyze and forecast the routes of boats participating in the ongoing Vendée Globe 2024 race.
+This project uses historical Vendée Globe 2020 race data to test if a machine learning model can learn the decision-making of skippers, based on the wind direction and location (latitude and longitude). The aim is for the model to predict the direction (bearing) a boat will take in the ongoing 2024 race on the following day based on the wind direction on the current day. The project includes wind data fetching, data processing, modeling, and visualization of both observed and predicted routes.
+
+
 
 **Disclaimer**
 This is a work in progress that I am undertaking during my maternity leave to enhance my own enjoyment of following the Vendée Globe 2024 even further. I am making the repository public in case someone else wants to save resources in obtaining the data while the race is ongoing. The fate of this project solely depends on whether I survive the 4-month sleep regression ^_^
@@ -8,18 +11,26 @@ This is a work in progress that I am undertaking during my maternity leave to en
 This project collects, processes, and models data from the Vendée Globe 2024 race to gain insights and make route predictions for participating skippers.
 
 2020 Vendee globe routes enhanced with wind and temperature data are used to train a simple ML model that predicts how far the skipper will make it the next day. 
-### Project Plan
+
 The project uses 2020 Vendée Globe routes, enhanced with wind and temperature data, to train a simple machine learning (ML) model that predicts the routes of skippers participating in the ongoing Vendée Globe 2024.
 
 You can:
 1. Download the latest 2024 Vendée Globe data (see the instructions below).
 2. Enrich the 2024 data with wind information (see the instructions below).
-3. Use the 2020 routes data with wind (available in `data/2020`) to train the ML model and predict the next few days of routes for the 2024 skippers of your choice.
+3. Use the 2020 routes data with the wind (available in `data/2020`) to train the ML model and predict the next day of routes for a 2024 skipper of your choice (notebook /predict_vendee.ipynb)
 
-To make predictions, you will also need wind forecast data for the new position of the selected skippers. 
-
-Additionally, you can modify the wind power by specifying a scale. For instance, you can make predictions assuming the wind is 10% higher than the predicted values.
-
+Workflow:
+- Data Preprocessing: Clean and preprocess race data, including geospatial (latitude/longitude) and wind information.
+- Feature Engineering:
+- - Calculate bearings (direction).
+- - Generate lagged features for past movements.
+- - Compute wind alignment and travel distances.
+- Machine Learning:
+- - Predict next-day positions using Random Forest.
+- - Evaluate model accuracy using metrics like MAE
+- Visualization:
+- - Interactive maps with Folium.
+- - Static visualizations with Matplotlib and Cartopy.
 
 ![Predicted Routes Screenshot](docs/predicted_route_example.png)  
 
